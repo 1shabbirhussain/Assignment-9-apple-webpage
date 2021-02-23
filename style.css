@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    src: url(images/FontsFree-Net-SFProText-Regular.ttf);
+    font-family: "sf pro text";
+}
+body{
+font-family:"sf pro text" ;
+font-weight: lighter;
+}
+/* ---------------Header ki styling-------------- */
+header{
+    background-color: #1d1d1f;
+    font-weight: lighter;
+    font-size: 15px; 
+    display: flex;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+}
+header td{
+    padding: 0.8%;
+    width: 200px;
+    opacity: 0.7;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header td:hover{
+    opacity: 0.9;
+}
+/* -----------blue line corona ki styling ----------*/
+.covid{
+    background-color: #0071E3;
+    padding: 1%;
+}
+.covid a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+.covid a:hover{
+    text-decoration: underline;
+}
+/* -----------shop online wali line ki styling ----------*/
+
+.shop-online{
+    text-align: center;
+    color: #1d1d1f;
+    padding: 1%;
+    letter-spacing: -0.5px;
+}
+.shop-online a{
+    color: #0071E3;
+    text-decoration: none;
+}
+.shop-online a:hover{
+
+    text-decoration:underline;
+}
+/* ------Iphone12 ki styling----------- */
+.iphone12{
+    background-color: #FBFBFD;
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+    margin-bottom: 12px;
+    color:#1d1d1f ;
+}
+.iphone12 h1{
+    font-size:58px;
+    
+}
+.iphone12 h2{
+    font-size:30px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    padding: 5px;
+}
+.iphone12 img {
+    width: 45%;
+}
+.grey{
+    font-size: 18px;
+    color: grey;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* --------------Styling for blue links---------- */
+.bluelinks{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.bluelinks a{
+    color: #0071E3 !important; 
+   text-decoration: none;
+}
+.bluelinks a:hover{
+   text-decoration: underline;
+}
+/* ------Iphone12 pro ki styling----------- */
+.iphone12pro{
+    background-color: #000000;
+    display: grid;
+    place-items: center;
+    color: white;
+   padding-top: 5%;
+}
+.iphone12pro h1{
+    font-size:58px;
+}
+.iphone12pro h2{
+    font-size:30px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    padding: 5px;
+}
+.iphone12pro img{
+    width: 100%;
+}
+
+
+/* ------ipadair ki styling----------- */
+.ipadair{
+    display: grid;
+    place-items: center;
+    background-color: #FBFBFD;
+    padding-top: 5%;
+    color:#1d1d1f ;
+}
+.ipadair h1{
+    font-size:58px;
+}
+.ipadair h2{
+    font-size:30px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    padding: 5px;
+}
+.ipadair img{
+    width: 100%;
+}
+
+/* -------------------------six div ki floating ------------- */
+.sixdivs{
+    padding: 0;
+    margin:0;
+}
+.div1{
+    width: 47%;
+    height: 650px;
+    background-image: url(images/div1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.2%;
+    display: inline-block;
+}
+
+
+.div2{
+    width: 47%;
+    height: 650px;
+    background-image: url(images/div2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.2%;
+    display: inline-block;
+    
+}
+.div3{
+    width: 47%;
+    height: 650px;
+    background-image: url(images/div3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    display: inline-block;
+}
+.div4{
+    width: 47%;
+    height: 650px;
+    background-image: url(images/div4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    display: inline-block;
+}
+.div5{
+    width: 47%;
+    height: 650px;
+    background-image: url(images/div5.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    display: inline-block;
+}
+.div6{
+    width: 47%;
+    height: 650px;
+    background-image: url(images/div6.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:1%;
+    display: inline-block;
+}
+
+.div1 .bluelinks{
+margin:37% 30% 70% 35%;
+width: 200px;
+}
+.div2 .bluelinks{
+    margin:37% 25% 70% 30%;
+    width: 300px;
+}
+.div3 .bluelinks{
+    margin:37% 30% 70% 35%;
+    width: 200px;    
+}
+.div4 .bluelinks{
+    margin:37% 20% 70% 25%;
+    width: 400px;
+}
+.div5 .bluelinks{
+    margin:37% 30% 70% 35%;
+    width: 200px;
+}
+.div6 .bluelinks{
+    margin:37% 30% 70% 35%;
+    width: 200px;
+}
+/* -----------last div----------- */
+.lastdiv{
+    margin: 0;
+    padding: 0 13%  ;
+    background-color: white;
+
+}
+.ol{
+    margin: 0 auto;
+    opacity: 0.7;
+    color: #1d1d1f;
+    font-weight: normal;
+    list-style-position: inside;
+    font-size: 12px;
+}
+/* ----------table ki stylung---------- */
+.table{
+    color:#1d1d1f ;
+    opacity: 0.9;
+    text-align: left;
+    font-size: 12px;
+}
+.table td,.table th{
+    width: 300px;
+    padding: 5px;
+    align-items: left;
+    align-self: left;
+    align-content: left;
+}
+
+.table a{
+    color:#1d1d1f ;
+    opacity: 0.8;
+    text-decoration: none;
+    font-weight: normal;
+    text-align:left;
+}
+.table a:hover{
+    text-decoration: underline;
+}
+
+.footerline{
+    
+    color: rgb(165, 165, 165);
+    font-weight: normal;
+    font-size: 12px;
+}
+.footerline a{
+    color: #0071E3;
+    text-decoration: none;
+   
+}
+.footerline a:hover{
+    text-decoration: underline;
+}
+#lasttable {
+    color:rgb(168, 168, 168) ;
+    padding-top:10px ;
+    padding-bottom: 30px;
+    padding: 10px 10px 30px 10px;
+    text-decoration: none;
+    font-weight: normal;
+    text-align:left;
+    font-size: 12px;
+}
+#lasttable td{
+    padding: 0 10px;
+}
+#lasttable .border{
+    border-left: 1px ridge rgb(255, 255, 255);
+    padding: 0 20px;
+}
+#lasttable a{
+    color:#1d1d1f ;
+    opacity: 0.8;
+    text-decoration: none;
+    font-weight: normal;
+    text-align:left;
+}
